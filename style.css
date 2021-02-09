@@ -1,0 +1,292 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+.hader {
+	position: fixed;
+	top: 4%;
+	width: 100%;
+}
+.logo {
+}
+.logo a {
+}
+
+.logo a img {
+}
+.manu {
+}
+.manu ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+.manu ul li ul {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: -38px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+	transform: scaleY(0);
+	transform-origin: top center;
+}
+.manu ul li:hover > ul {
+	visibility: visible;
+	opacity: 1;
+	transform: scaleY(1);
+}
+.manu ul li ul li ul {
+	left: 115px;
+	top: 0%;
+}
+.manu ul li {
+	position: relative;
+}
+.manu ul li ul li {
+}
+.manu ul li ul li a {
+	padding: 14px 2px;
+	width: 113px;
+}
+.manu ul li a {
+	text-decoration: none;
+	padding: 11px 23px;
+	display: inline-block;
+	font-weight: 800;
+	color: white;
+}
+.manu ul li a:hover {
+}
+.topbutton {
+}
+.topbutton a {
+	text-decoration: none;
+	font-weight: 800;
+	display: inline-block;
+	padding: 10px 26px;
+	border-radius: 30px;
+	border: 2px solid white;
+	color: white;
+}
+.banar {
+	background: linear-gradient(110deg, #ed03f7d1, rgb(2 125 255 / 75%)),
+		url(https://demo.themovation.com/pursuit/cryptocurrency/wp-content/uploads/sites/4/2018/06/careers-header-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 250px 0px;
+	text-align: center;
+	margin-top: -92px;
+}
+.banaritem {
+	color: white;
+	padding: 80px 0px 0px;
+}
+.banaritem b {
+	font-size: 60px;
+}
+.banaritem h5 {
+	font-size: 23px;
+	padding: 60px 0px;
+	padding-top: 10px;
+}
+.banaritem h2 {
+	word-spacing: 4px;
+	font-size: 31px;
+	font-weight: 600;
+}
+.banaritem h6 {
+	font-size: 20px;
+	word-spacing: 30px;
+	font-weight: 700;
+	padding: 15px 0px 50px;
+}
+.banaritem a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 29px;
+	border: 2px solid white;
+	border-radius: 24px;
+	margin: 0px 22px;
+}
+.fastbutton {
+	text-decoration: none !important;
+	display: inline-block !important;
+	background: white !important;
+	color: black !important;
+	border-radius: 22px !important;
+	padding: 8px 35px !important;
+	font-weight: 600;
+}
+.aboutsectioj {
+	background: #31353c;
+	color: white;
+}
+.aboutll {
+	padding: 80px 0px 22px;
+}
+.aboutll h2 {
+	font-size: 51px;
+}
+.aboutll h1 {
+}
+.aboutll i {
+	font-size: 55px;
+	padding: 8px 0px;
+	color: #02fbda;
+}
+.aboutll p {
+	padding: 26px 181px;
+	font-size: 21px;
+}
+.imgbb {
+}
+.imgbb img {
+}
+.aboutsetal {
+	padding: 10px 31px 36px;
+}
+.aboutsetal i {
+	font-size: 53px;
+	color: #02fbda;
+	padding: 35px 11px;
+	position: relative;
+	top: 12px;
+	right: 15px;
+}
+.aboutsetal b {
+	font-size: 21px;
+	display: inline-block;
+	padding: 10px 1px 31px;
+}
+.aboutsetal p {
+	padding: 0px 0px 0px;
+	padding-left: 77px;
+	line-height: 31px;
+	font-size: 20px;
+}
+.myme {
+	margin-left: -14px;
+}
+.service {
+	text-align: center;
+	background: #2a2b30;
+	color: white;
+	padding: 24px 0px;
+}
+.service1 {
+	padding: 72px 24px;
+}
+.service1 i {
+	font-size: 62px;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	background: #3bd3be;
+	padding: 20px 0px;
+	cursor: pointer;
+	transition: 1s;
+}
+.service1 h2 {
+	padding: 44px 0px 0px;
+}
+.service1 p {
+}
+.servicsr {
+}
+.servicsr hr {
+	width: 317px;
+	opacity: 1;
+	margin: auto;
+	height: 7px;
+	color: darkgrey;
+}
+.servicsr h1 {
+	padding: 35px 0px;
+	color: darkgray;
+	font-weight: 900;
+	font-size: 49px;
+	padding-bottom: 0px;
+}
+.service1 i:hover {
+	color: black;
+}
+.formnn {
+	MARGIN-TOP: 60PX;
+	margin-left: 20px;
+}
+.formnn h3 {
+	font-weight: 700;
+	padding: 0px 0px;
+	padding-bottom: 0px;
+	margin-top: 45px;
+}
+.formnn input {
+	height: 55px;
+}
+.formnn textarea {
+}
+.formdiv {
+	background: #00cdac;
+}
+.totaladress {
+	text-align: center;
+	color: #54585f;
+}
+.aadress {
+	padding: 44px 0px;
+	background: cornflowerblue;
+	margin: 64px 0px;
+	transition: 1s;
+	border-radius: 5px;
+}
+.aadress i {
+	font-size: 79px;
+	color: white;
+}
+.aadress h1 {
+}
+.aadress p {
+}
+.formnn button {
+	padding: 10px 115px;
+	font-size: 21px;
+	margin-top: 10px;
+	background: black;
+	border-radius: 10px;
+	color: white;
+	transition: 1s;
+}
+.aadress:hover {
+	box-shadow: 0px 0px 10px 0px black;
+}
+.formnn button:hover {
+	color: black;
+	background: white;
+}
+.copy {
+}
+.copy h1 {
+}
+.futter {
+	background: #4c4b4b;
+	color: white;
+}
+.social {
+}
+.social a {
+	color: white;
+	padding: 0px 26px;
+	font-size: 39px;
+	display: inline-block;
+}
+.social a i {
+}
+.copy h3 {
+	padding: 13px 0px;
+	margin-bottom: 0px;
+}
+.copy h3 b {
+	color: red;
+}
